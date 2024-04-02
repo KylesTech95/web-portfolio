@@ -1,0 +1,15 @@
+// vite.config.js
+import ViteRestart from "file:///home/kylestech95/code/frontend/portfolio_dev/node_modules/vite-plugin-restart/dist/index.js";
+var vite_config_default = {
+  plugins: [
+    ViteRestart({
+      restart: [
+        "my.config.[jt]s"
+      ]
+    })
+  ]
+};
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvaG9tZS9reWxlc3RlY2g5NS9jb2RlL2Zyb250ZW5kL3BvcnRmb2xpb19kZXZcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIi9ob21lL2t5bGVzdGVjaDk1L2NvZGUvZnJvbnRlbmQvcG9ydGZvbGlvX2Rldi92aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vaG9tZS9reWxlc3RlY2g5NS9jb2RlL2Zyb250ZW5kL3BvcnRmb2xpb19kZXYvdml0ZS5jb25maWcuanNcIjsvLyB2aXRlLmNvbmZpZy5qc1xuaW1wb3J0IFZpdGVSZXN0YXJ0IGZyb20gJ3ZpdGUtcGx1Z2luLXJlc3RhcnQnXG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgcGx1Z2luczogW1xuICAgIFZpdGVSZXN0YXJ0KHtcbiAgICAgIHJlc3RhcnQ6IFtcbiAgICAgICAgJ215LmNvbmZpZy5banRdcycsXG4gICAgICBdXG4gICAgfSlcbiAgXSxcbn0iXSwKICAibWFwcGluZ3MiOiAiO0FBQ0EsT0FBTyxpQkFBaUI7QUFFeEIsSUFBTyxzQkFBUTtBQUFBLEVBQ2IsU0FBUztBQUFBLElBQ1AsWUFBWTtBQUFBLE1BQ1YsU0FBUztBQUFBLFFBQ1A7QUFBQSxNQUNGO0FBQUEsSUFDRixDQUFDO0FBQUEsRUFDSDtBQUNGOyIsCiAgIm5hbWVzIjogW10KfQo=
